@@ -43,6 +43,11 @@
   color: white;
 }
 
+.loginButton:hover {
+  color: #29328d;
+  border: 1px solid #29328d;
+}
+
 .welcome {
 color: #e66926;
 }
