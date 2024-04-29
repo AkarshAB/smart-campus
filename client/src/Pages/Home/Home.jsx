@@ -25,7 +25,7 @@ function Home() {
             <Tab label="All Students" />
             <Tab label="Attendance View" />
           </Tabs>
-          <button className='btn add-btn' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Add Students</button>
+          <button className='btn add-btn' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register Student</button>
           {/* <!-- Modal --> */}
           <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div className="modal-dialog">
@@ -48,14 +48,16 @@ function Home() {
                   <input type="text" placeholder='Department' className="form-control" />
                   <input type="text" placeholder='Course' className="form-control" />
                   <input type="text" placeholder='Batch' className="form-control" />
+                  <div className="startAndEndYear d-flex gap-2">
                   <input type="text" placeholder='Start Year' className="form-control" />
                   <input type="text" placeholder='End Year' className="form-control" />
+                  </div>
                   <input type="file" placeholder='Image' className="form-control" />
 
                 </div>
                 <div className="modal-footer">
                   <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" className="btn add-btn">ADD</button>
+                  <button type="button" className="btn add-btn">Register</button>
                 </div>
               </div>
             </div>
