@@ -64,7 +64,9 @@ function Home() {
           </div>
         </Box>
         <CustomTabPanel value={value} index={0}>
-          Item One
+          <div className='border'>
+
+          </div>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
           Item Two
