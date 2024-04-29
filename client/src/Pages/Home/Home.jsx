@@ -5,7 +5,9 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Header from '../../Components/Header/Header.jsx';
 import PropTypes from 'prop-types';
-import './Home.css'
+import './Home.css';
+import TableDesign from '../../Components/Table/TableDesign.jsx';
+
 
 
 function Home() {
@@ -64,8 +66,8 @@ function Home() {
           </div>
         </Box>
         <CustomTabPanel value={value} index={0}>
-          <div className='border'>
-
+          <div className='p-4'>
+           <TableDesign/>
           </div>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
